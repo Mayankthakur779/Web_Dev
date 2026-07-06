@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form lets learn it</title>
+</head>
+<body>
+    <h1>form to apply for TA of the subject
+    </h1>
+
+    <form action="post">
+
+        <label form="username">Username:</label>
+        <input type="text" name="username" id="username" placeholder="Enter the username">
+         
+        <div>
+        <label for ="male">male</label>
+        <input type="radio" id="male"  name="gender" value="male">
+        <label for ="female">female</label>
+        <input type="radio" id="female"  name="gender" value="female">
+        </div>
+
+        <div>
+            <input type="checkbox" id="agree" name="agree" value="agree">
+            <label for="agree">I agree to the terms and conditions</label>
+        </div>
+
+        <div>
+            <textarea name="comment" rows="4" cols="50" placeholder="Enter your comment here..."></textarea>
+            
+        </div>
+
+    </form>
+</body>
+</html> 
